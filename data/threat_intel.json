@@ -1,0 +1,6 @@
+{
+  "_comment": "Local indicator feed. Replace with your own IOCs (domains / ips / urls). Format: lists of strings.",
+  "domains": ["paypa1-support.com", "corp-portal-secure.net", "company-exec.co"],
+  "ips": ["185.212.8.44"],
+  "urls": []
+}

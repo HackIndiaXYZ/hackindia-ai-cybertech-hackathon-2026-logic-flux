@@ -1,0 +1,3 @@
+Flask==3.1.3
+gunicorn==23.0.0
+# Optional: pip install geoip2 and set GEOIP_DB=/path/GeoLite2-City.mmdb for origin-country lookups

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SentinelTrace AI — Email Forensic &amp; Fraud Intelligence</title>
+<meta name="description" content="AI-powered email forensic and fraud intelligence. Understand the risk before the click.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232554C7'/%3E%3Cpath d='M16 6l8 3v7c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V9z' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+  <div class="sidebar" id="sidebar">
+    <div class="brand"><div class="name">SentinelTrace AI</div><div class="sub">Email Forensic Intelligence</div></div>
+    <div class="nav" id="nav"></div>
+    <div class="sidebar-bottom">
+      <div class="nav-item" id="apikey-reset" style="display:none"><span class="nav-dot"></span>Clear API key</div>
+      <div class="nav-item" data-page="Privacy &amp; Settings"><span class="nav-dot"></span>Settings &amp; Audit</div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="topbar">
+      <button class="hamburger" id="burger" aria-label="Menu">☰</button>
+      <input class="search" id="search" type="search" maxlength="100" placeholder="Search sender, subject, threat type or analysis ID…" aria-label="Search analyses">
+      <div class="top-right">
+        <span class="demo-badge" id="demo-badge" style="display:none">DEMO DATA</span>
+        <span class="hide-sm"><span class="status-dot" id="status-dot"></span><span id="status-text">Checking…</span></span>
+        <button class="btn primary top-demo" data-act="demo">Load Demo Threat</button>
+      </div>
+    </div>
+    <div class="content" id="content"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="file-input" accept=".eml,.txt,message/rfc822,text/plain" hidden>
+<script src="/static/app.js"></script>
+</body>
+</html>
