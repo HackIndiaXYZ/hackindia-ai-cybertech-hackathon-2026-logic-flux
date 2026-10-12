@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SentinelTrace AI — Email Forensic & Fraud Intelligence
 
 > Understand the risk before the click.
@@ -77,3 +78,7 @@ are logged server-side and never leak a stack trace.
 Strict CSP (`script-src 'self'`), `nosniff`, `X-Frame-Options: DENY`; every dynamic value in the UI and in reports is
 HTML-escaped (tested with script/`onerror` payloads); upload size cap; constant-time API-key comparison; evidence
 re-hashed on every view to detect tampering.
+=======
+# hackindia-ai-cybertech-hackathon-2026-logic-flux
+Hackathon team repository for LOGIC FLUX - [hackindia-team:hackindia-ai-cybertech-hackathon-2026:logic-flux]
+>>>>>>> d4e0b223f6357280579724823e15ab47b2c7ea3e
